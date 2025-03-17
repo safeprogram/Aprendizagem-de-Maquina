@@ -1,0 +1,4 @@
+data = {'Nome': ['Ana', 'Bruno', 'Carla', 'Daniel', 'Eduardo'],
+        'Idade': [25, 30, 22, 28, 35]}
+df = pd.DataFrame(data)
+df.to_csv('dados.csv', index=False)
